@@ -12,6 +12,8 @@
 		79C1F08515A8A13F00C555A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1F08415A8A13F00C555A6 /* main.m */; };
 		79C1F08A15A8A13F00C555A6 /* TracksParser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79C1F08815A8A13F00C555A6 /* TracksParser.xcdatamodeld */; };
 		79C1F08C15A8A13F00C555A6 /* TracksParser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79C1F08B15A8A13F00C555A6 /* TracksParser.1 */; };
+		79C1F09615A8A6AC00C555A6 /* tracks.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79C1F09515A8A6AC00C555A6 /* tracks.json */; };
+		79C1F09915A8A85C00C555A6 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1F09815A8A85C00C555A6 /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		79C1F09215A8A29E00C555A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				79C1F09615A8A6AC00C555A6 /* tracks.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +44,12 @@
 		79C1F07F15A8A13F00C555A6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		79C1F08115A8A13F00C555A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79C1F08415A8A13F00C555A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		79C1F08715A8A13F00C555A6 /* TracksParser-Prefix.pch */ = {isa = PBXFileReference; path = "TracksParser-Prefix.pch"; sourceTree = "<group>"; };
+		79C1F08715A8A13F00C555A6 /* TracksParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TracksParser-Prefix.pch"; sourceTree = "<group>"; };
 		79C1F08915A8A13F00C555A6 /* TracksParser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TracksParser.xcdatamodel; sourceTree = "<group>"; };
 		79C1F08B15A8A13F00C555A6 /* TracksParser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TracksParser.1; sourceTree = "<group>"; };
+		79C1F09515A8A6AC00C555A6 /* tracks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tracks.json; sourceTree = "<group>"; };
+		79C1F09715A8A85C00C555A6 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		79C1F09815A8A85C00C555A6 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +68,7 @@
 		79C1F07015A8A13F00C555A6 = {
 			isa = PBXGroup;
 			children = (
+				79C1F09515A8A6AC00C555A6 /* tracks.json */,
 				79C1F08315A8A13F00C555A6 /* TracksParser */,
 				79C1F07E15A8A13F00C555A6 /* Frameworks */,
 				79C1F07C15A8A13F00C555A6 /* Products */,
@@ -82,6 +98,8 @@
 				79C1F08415A8A13F00C555A6 /* main.m */,
 				79C1F08B15A8A13F00C555A6 /* TracksParser.1 */,
 				79C1F08815A8A13F00C555A6 /* TracksParser.xcdatamodeld */,
+				79C1F09715A8A85C00C555A6 /* Track.h */,
+				79C1F09815A8A85C00C555A6 /* Track.m */,
 				79C1F08615A8A13F00C555A6 /* Supporting Files */,
 			);
 			path = TracksParser;
@@ -105,6 +123,7 @@
 				79C1F07715A8A13F00C555A6 /* Sources */,
 				79C1F07815A8A13F00C555A6 /* Frameworks */,
 				79C1F07915A8A13F00C555A6 /* CopyFiles */,
+				79C1F09215A8A29E00C555A6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -147,6 +166,7 @@
 			files = (
 				79C1F08515A8A13F00C555A6 /* main.m in Sources */,
 				79C1F08A15A8A13F00C555A6 /* TracksParser.xcdatamodeld in Sources */,
+				79C1F09915A8A85C00C555A6 /* Track.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
